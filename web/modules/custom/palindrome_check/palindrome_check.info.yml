@@ -1,0 +1,5 @@
+name: Palindrome Check
+type: module
+description: Simple palindrome checker.
+core_version_requirement: ^11
+package: Custom

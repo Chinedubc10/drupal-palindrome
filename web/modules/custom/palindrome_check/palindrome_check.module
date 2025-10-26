@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Palindrome Check module.
+ */
+
+/**
+ * Implements hook_help().
+ */
+function palindrome_check_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match) {
+  if ($route_name === 'help.page.palindrome_check') {
+    $build = [];
+    $build['intro'] = [
+      '#markup' => '<p><strong>Palindrome Check</strong> lets you test if a string reads the same forwards and backwards.</p>',
+    ];
+    $build['usage'] = [
+      '#markup' => '<p>Go to <code>/palindrome</code> or via the menu link “Palindrome Check” to try it out.</p>',
+    ];
+    return $build;
+  }
+}

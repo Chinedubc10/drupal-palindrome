@@ -1,0 +1,6 @@
+palindrome_check.form.link:
+  title: "Palindrome Check"
+  description: "Check if a word or sentence is a palindrome."
+  route_name: palindrome_check.form
+  menu_name: main
+  weight: 0

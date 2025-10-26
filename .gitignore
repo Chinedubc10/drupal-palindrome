@@ -1,0 +1,25 @@
+# Drupal core & vendors
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/sites/default/files/
+/web/sites/*/files/
+
+# Node / tooling
+/node_modules/
+/*.log
+*.log
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
